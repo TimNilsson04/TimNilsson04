@@ -1,0 +1,24 @@
+:root {
+    /* Custom pairs */
+    --base-font: sans-serif;
+    --color-fg: #293241;
+    --color-bg: #E0FBFC;
+    --color-a: #EE6C4D;
+}
+
+body {
+    font-family: var(--base-font);
+    color: var(--color-bg);
+    background-color: var(--color-fg);
+    align-items: center;
+    margin-left: 43%;
+    margin-right: 33%;
+}
+
+a {
+    color: var(--color-a);
+}
+
+li {
+    list-style: none;
+}
