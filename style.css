@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Titillium+Web:wght@700&display=swap');
+
 :root {
     --step--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem);
     --step--1: clamp(0.94rem, calc(0.92rem + 0.11vw), 1.00rem);
@@ -15,7 +17,7 @@
 }
 
 body {
-    font-family: var(--base-font);
+    font-family: 'Playfair Display', serif;
     color: var(--color-bg);
     background-color: var(--color-fg);
     text-align: center;
@@ -36,6 +38,7 @@ a {
 
 li,
 p {
+    margin-top: 1.5rem;
     list-style: none;
     font-size: var(--step-1);
 }
@@ -48,6 +51,7 @@ img {
 .grid {
     display: grid;
     grid-template-columns: auto auto;
+
 }
 
 @media screen and (max-width: 600px) {
