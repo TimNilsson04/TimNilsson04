@@ -5,7 +5,7 @@
 
 ✔ Right now im a student at **NTI Gymnasiet TE4** 😊 <br>
 ✔ Here are some of my works as of now **[portfolio](https://timnilsson04.github.io/TimNilsson04/)**<br>
-✔ Fun fact : *I Always try to code the lazy way just like Steve Jobs wants* 😎<br>
+✔ Fun fact : *I Always try to code the lazy way just like Bill gates wants. quote* "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it."😎<br>
 
 ### 🤝🏻 &nbsp;Connect with Me
 
