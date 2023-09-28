@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           extras_css: |
-            body {
+            div {
             color: #FFFFFF;
               }
           # Your GitHub token
