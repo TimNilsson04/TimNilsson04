@@ -16,7 +16,7 @@ jobs:
         with:
           extras_css: |
             div {
-            color: #FFFFFF;
+            color: #e5edf3;
               }
           # Your GitHub token
           # The following scopes are required:
