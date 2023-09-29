@@ -44,6 +44,7 @@ Quote* "I choose a lazy person to do a hard job. Because a lazy person will find
 ![Photoshop](https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobe-photoshop)&nbsp;
 ![11ty](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor=FFA518)&nbsp;
 
+<h4 >Visitor's count :eyes:</h4>
+<p ><img src="https://profile-counter.glitch.me/{TimNilsson04}/count.svg" alt="TimNilsson04 :: Visitor's Count" /></p>
 
 ![Metrics](/github-metrics.svg) 
-<br>
