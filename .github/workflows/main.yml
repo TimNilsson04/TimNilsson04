@@ -16,8 +16,6 @@ jobs:
         with:
           extras_css: |
             div {
-            align: center;
-            color: #e5edf3;
               }
           # Your GitHub token
           # The following scopes are required:
