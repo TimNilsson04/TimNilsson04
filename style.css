@@ -45,25 +45,57 @@ ul {
     list-style: none;
 }
 
-
-
-img {
-    max-width: 60%;
-    max-height: 60%
+div img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.card {}
+.auto {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .grid {
     display: grid;
     grid-template-columns: auto auto;
 }
 
+.grid-one-auto {
+    display: grid;
+    grid-template-columns: auto;
 
+}
+
+.webb-grid {
+    display: flex;
+    align-items: center;
+}
+
+.webb-image {
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 @media screen and (max-width: 600px) {
     .grid {
         grid-template-columns: auto;
-        text-align: left;
+
+    }
+
+    .webb-grid {
+        flex-direction: column;
+
+    }
+
+    .webb-image {
+        margin-top: 1rem;
+        width: initial;
+        height: initial;
     }
 }
