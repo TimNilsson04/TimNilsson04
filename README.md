@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+![image](https://github.com/TimNilsson04/TimNilsson04/assets/77719303/ed881399-89af-498c-b5a2-ecd12493e448)<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!--h1 without bottom border-->
 <div id="user-content-toc">
@@ -42,7 +42,10 @@ Quote* "I choose a lazy person to do a hard job. Because a lazy person will find
 ![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)\
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 ![Photoshop](https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobe-photoshop)&nbsp;
-![11ty](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor=FFA518)&nbsp;
+![11ty](https://img.shields.io/badge/)&nbsp;
+![NEXT.JS](https://img.shields.io/badge/)&nbsp;
+![Angular](https://img.shields.io/badge/)&nbsp;
+
 
 <h4 >Visitor's count :eyes:</h4>
 <p ><img src="https://profile-counter.glitch.me/{TimNilsson04}/count.svg" alt="TimNilsson04 :: Visitor's Count" /></p>
