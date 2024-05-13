@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Titillium+Web:wght@700&display=swap');
-
 :root {
     --step--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem);
     --step--1: clamp(0.94rem, calc(0.92rem + 0.11vw), 1.00rem);
@@ -10,92 +8,176 @@
     --step-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
     --step-5: clamp(2.80rem, calc(2.45rem + 1.77vw), 3.82rem);
 
-    --base-font: sans-serif;
     --color-fg: #293241;
     --color-bg: #E0FBFC;
     --color-a: #EE6C4D;
 }
 
 body {
-    font-family: 'Playfair Display', serif;
-    color: var(--color-bg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    transition: background-color 0.3s ease;
+    font-size: var(--step-0);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
     background-color: var(--color-fg);
+    padding: 20px 0;
     text-align: center;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-h1 {
-    font-size: var(--step-5);
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: var(--step-2);
+}
+
+footer {
+    background-color: var(--color-fg);
+    padding: 20px 0;
     text-align: center;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-h2 {
-    font-size: var(--step-3);
+footer p {
+    margin: 0;
+    padding: 0;
 }
 
-a {
-    color: var(--color-a);
+#projects {
+    padding: 50px 0;
 }
 
-p {
-    margin-top: 1rem;
+.project {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project h3 {
+    margin-top: 0;
     font-size: var(--step-1);
 }
 
-ul {
-    list-style: none;
+.project p {
+    font-size: var(--step-0);
 }
 
-div img {
-    max-width: 90%;
-    max-height: 90%;
-    margin-left: auto;
-    margin-right: auto;
+.project a {
+    display: inline-block;
+    background-color: var(--color-a);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: var(--step--1);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-.auto {
-    margin-left: auto;
-    margin-right: auto;
+.project a:hover {
+    background-color: var(--color-a);
+    filter: brightness(0.8);
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: auto auto;
+.project-image {
+    flex: 1;
+    text-align: center;
+    padding-left: 20px;
 }
 
-.grid-one-auto {
-    display: grid;
-    grid-template-columns: auto;
-
+.project-image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
 }
 
-.webb-grid {
+.project:hover .project-image img {
+    transform: scale(1.1);
+}
+
+#hero {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-fg);
+    filter: brightness(1.2);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.hero-content {
     display: flex;
+    justify-content: center;
     align-items: center;
+
 }
 
-.webb-image {
-    width: 30%;
-    height: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+.hero-text {
+    flex: 1;
+    font-size: var(--step-3);
 }
 
-@media screen and (max-width: 600px) {
-    .grid {
-        grid-template-columns: auto;
+.hero-image {
+    flex: 0.6;
+}
 
-    }
+.hero-image img {
+    object-position: center 20%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
-    .webb-grid {
-        flex-direction: column;
+.projects-container {
+    display: flex;
+}
 
-    }
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    flex: 1;
+}
 
-    .webb-image {
-        margin-top: 1rem;
-        width: initial;
-        height: initial;
-    }
+.project:last-child {
+    margin-right: 0;
+}
+
+.project-image {
+    text-align: center;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
 }

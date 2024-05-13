@@ -3,75 +3,128 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="My portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Portfolio</h1>
-    <div class="grid">
-        <div>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Hello, I'm Tim Nilsson</h2>
+                    <p>Welcome to my portfolio</p>
+                </div>
+                <div class="hero-image">
+                    <img src="./img/SkolFoto.jfif" alt="Your Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+        </div>
+    </header>
+
+    <section id="projects">
+        <div class="container">
             <h2>Projects</h2>
-            <div>
-                <div class="grid-one-auto">
-                    <a href="https://timnilsson04.github.io/te4-pizzeria/">Pizza restaurant website</a>
-                    <img src="./img/pizza.png" alt="">
-                    <a href="https://cv-te4-intro.netlify.app/">Interactive CV</a>
-                    <img src="./img/interactiveCV.png" alt="">
+            <div class="project">
+                <div class="project-info">
+                    <h3>Clash of Läns</h3>
+                    <p>Description of Project 1</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="project-image">
+                    <img src="project1.jpg" alt="Project 1">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3>Land Puzzle</h3>
+                    <p>Description of Project 2</p>
+                    <a href="https://land-puzzle.netlify.app/" target="_blank">View Project</a>
+                </div>
+                <div class="project-image">
+                    <img src="./img/land-puzzle.png" alt="Project 2">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3>Webb-shop project</h3>
+                    <p>Description of Project 2</p>
+                    <a href="https://github.com/TimNilsson04/webb-shop-react" target="_blank">View Project</a>
+                </div>
+                <div class="project-image">
+                    <img src="./img/Webb-Shop.png" alt="Image 1">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3>Weather Forecast</h3>
+                    <p>Description of Project 2</p>
+                    <a href="https://darth-vader-the-sky-awakens.netlify.app/" target="_blank">View Project</a>
+                </div>
+                <div class="project-image">
+                    <img src="./img/weather-forecast.png" alt="Image 1">
+                </div>
+            </div>
+            <div class="projects-container">
+                <div class="project">
+                    <div class="project-info">
+                        <h3>FlipFlops website</h3>
+                        <p>Description of FlipFlops website</p>
+                        <a href="https://flipflops.timpan.ninja/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/flipflops.png" alt="FlipFlops Website">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-info">
+                        <h3>Sneakers website</h3>
+                        <p>Description of Sneakers website</p>
+                        <a href="https://sneakers.timpan.ninja/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/sneakers.png" alt="Sneakers Website">
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3>Interactive CV</h3>
+                    <p>Description of Project 2</p>
+                    <a href="https://cv-te4-intro.netlify.app/" target="_blank">View Project</a>
+                </div>
+                <div class="project-image">
+                    <img src="./img/interactiveCV.png" alt="Image 1">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3>Pizza restaurant</h3>
+                    <p>Description of Project 2</p>
+                    <a href="https://timnilsson04.github.io/te4-pizzeria/" target="_blank">View Project</a>
+                </div>
+                <div class="project-image">
+                    <img src="./img/pizza.png" alt="Image 1">
                 </div>
             </div>
         </div>
+    </section>
 
-        <div>
-            <h2>My Finals project</h2>
-            <div>
-                <div class="grid-one-auto">
-                    <a href="https://flipflops.timpan.ninja/">Flipflops website</a>
-                    <img src="./img/flipflops.png" alt="">
-                    <a href="https://sneakers.timpan.ninja/">Sneakers website</a>
-                    <img src="./img/sneakers.png" alt="">
-                    <p>Open Finals project <a href="./Gymnasiearbete-2022-2023-Tim_Nilsson.pdf">pdf</a>.</p>
-                </div>
-            </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024</p>
         </div>
-    </div>
-    <div>
-        <h2>Projects</h2>
-        <div>
-            <div class="grid-one-auto">
-                <a href="https://darth-vader-the-sky-awakens.netlify.app/">Weather Forecast</a>
-                <img src="./img/weather-forecast.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div>
-        <h2>Webb-shop project</h2>
-        <div>
-            <div class="grid-one-auto">
-                <a href="https://github.com/TimNilsson04/webb-shop-react">Link to github page with front end
-                    code</a>
-
-                <a href="https://github.com/TimNilsson04/products">Link to github page with back end code</a>
-            </div>
-            <div class="webb-grid">
-                <img class="webb-image" src="./img/product.png" alt="">
-                <img class="webb-image" src="./img/Webb-Shop - localhost.png" alt="">
-                <img class="webb-image" src="./img/Cart.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div>
-        <h2>Land Puzzle</h2>
-        <div>
-            <div class="grid-one-auto">
-                <a href="https://land-puzzle.netlify.app/">Land Puzzle Netlify</a>
-                <a href="http://jupiter.umea-ntig.se:6901/">Land Puzzle Database Version</a>
-                <img src="./img/land-puzzle.png" alt="">
-            </div>
-        </div>
-    </div>
+    </footer>
 </body>
+
+
 
 </html>
