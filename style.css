@@ -13,6 +13,10 @@
     --color-a: #EE6C4D;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -27,14 +31,6 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-}
-
-header {
-    background-color: var(--color-fg);
-    padding: 20px 0;
-    text-align: center;
-    color: white;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 header h1 {
@@ -55,6 +51,60 @@ footer p {
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: var(--color-fg);
+    padding: 20px 0;
+    color: white;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    position: sticky;
+    top: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--step--2);
+    padding-right: var(--step--2);
+}
+
+.logo {
+    margin: 0;
+    font-size: var(--step-2);
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: var(--step-1);
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    filter: brightness(0.6);
+    transition: 0.5s;
+}
+
 
 #projects {
     padding: 50px 0;
@@ -77,6 +127,9 @@ footer p {
 
 .project-info {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project h3 {
@@ -89,6 +142,7 @@ footer p {
 }
 
 .project a {
+    width: 90px;
     display: inline-block;
     background-color: var(--color-a);
     color: white;
