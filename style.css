@@ -33,6 +33,16 @@ body {
     padding: 20px;
 }
 
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: var(--step-2);
+}
+
 header h1 {
     margin: 0;
     padding: 0;
@@ -144,13 +154,13 @@ header {
 }
 
 .project a {
-    width: 90px;
+    width: fit-content;
     display: inline-block;
     background-color: var(--color-a);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    font-size: var(--step--1);
+    font-size: var(--step-0);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -218,6 +228,7 @@ header {
 .hero-image:hover {
     transform: scale(1.2);
     transition: 3s;
+    filter: brightness(2.2);
 }
 
 .projects-container {
@@ -242,4 +253,13 @@ header {
 .project-image img {
     max-width: 100%;
     height: auto;
+}
+
+.icons {
+    text-decoration: none;
+    color: white;
+}
+
+.icons:hover {
+    filter: brightness(0.6);
 }
