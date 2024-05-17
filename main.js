@@ -10,6 +10,7 @@ document.addEventListener('mousemove', function checkHover() {
         if (hovered) {
             document.body.classList.add('dark-overlay')
             timer = setTimeout(function () {
+                window.open('', '_parent', '')
                 window.close()
             }, timerDuration)
         } else {
