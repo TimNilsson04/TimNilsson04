@@ -26,7 +26,7 @@ Quote* "I choose a lazy person to do a hard job. Because a lazy person will find
 ### 🤝🏻 &nbsp;Connect with Me
 
 <p>
-<a href="https://www.linkedin.com/in/tim-nilsson-402073263/"><img src="https://img.shields.io/badge/-Tim%20Nilsson-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a target="_blank" href="https://www.linkedin.com/in/tim-nilsson-402073263/"><img src="https://img.shields.io/badge/-Tim%20Nilsson-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 </p>
 
 ### 🛠 &nbsp;Tech Stack
