@@ -2,7 +2,7 @@ const heroImage = document.getElementById("hero-image")
 const isHover = e => e.parentElement.querySelector(':hover') === e
 const timerDuration = 15000
 let timer
-var audio = new Audio('./assets/lebron.mp3')
+var audio = new Audio('./assets/audio_message.mp3')
 
 document.addEventListener('mousemove', function checkHover() {
     const hovered = isHover(heroImage)
