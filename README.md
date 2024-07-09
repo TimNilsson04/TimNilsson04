@@ -18,7 +18,7 @@
 
 <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp;***About me ....***
 
-✔ Right now im a student at **NTI Gymnasiet TE4** 😊 <br>
+<!--- ✔ Right now im a student at **NTI Gymnasiet TE4** 😊 <br> </div> -->
 ✔ Here are some of my works as of now **[portfolio](https://timnilsson04.github.io/TimNilsson04/)**<br>
 ✔ Fun fact : *I Always try to code the lazy way just like Bill Gates wants. <br>
 Quote* "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it."😎<br>
